@@ -1,0 +1,903 @@
+window.APP_DATA = {
+  "stats": {
+    "customers": 3000,
+    "campaigns": 24,
+    "sends": 26400,
+    "purchases": 2508,
+    "revenue": 1298330.72
+  },
+  "channelPerformance": [
+    {
+      "channel": "SMS",
+      "sends": 8800,
+      "clicks": 30119,
+      "ctr": 342.26,
+      "purchases": 205,
+      "conversion_rate": 2.33,
+      "revenue": 139356783.01
+    },
+    {
+      "channel": "Email",
+      "sends": 8800,
+      "clicks": 5325,
+      "ctr": 60.51,
+      "purchases": 55,
+      "conversion_rate": 0.63,
+      "revenue": 37145480.49
+    },
+    {
+      "channel": "Paid Social",
+      "sends": 8800,
+      "clicks": 3902,
+      "ctr": 44.34,
+      "purchases": 48,
+      "conversion_rate": 0.55,
+      "revenue": 32304213.99
+    }
+  ],
+  "monthlyRevenue": [
+    {
+      "month": "2025-01",
+      "orders": 293,
+      "revenue": 148777.03
+    },
+    {
+      "month": "2025-02",
+      "orders": 270,
+      "revenue": 138564.84
+    },
+    {
+      "month": "2025-03",
+      "orders": 294,
+      "revenue": 148645.38
+    },
+    {
+      "month": "2025-04",
+      "orders": 298,
+      "revenue": 161644.86
+    },
+    {
+      "month": "2025-05",
+      "orders": 302,
+      "revenue": 150969.07
+    },
+    {
+      "month": "2025-06",
+      "orders": 321,
+      "revenue": 171679.14
+    },
+    {
+      "month": "2025-07",
+      "orders": 271,
+      "revenue": 144318.27
+    },
+    {
+      "month": "2025-08",
+      "orders": 304,
+      "revenue": 156077.77
+    },
+    {
+      "month": "2025-09",
+      "orders": 155,
+      "revenue": 77654.36
+    }
+  ],
+  "topCampaigns": [
+    {
+      "campaign_name": "SMS Winback Campaign 5",
+      "channel": "SMS",
+      "campaign_type": "Winback",
+      "offer_type": "Dollar Discount",
+      "offer_value": 15.0,
+      "budget": 14216.07,
+      "sends": 1100,
+      "clicks": 4230,
+      "purchases": 30,
+      "conversion_rate": 2.73,
+      "revenue": 22680487.32,
+      "roi": 159441.19
+    },
+    {
+      "campaign_name": "SMS Promotion Campaign 23",
+      "channel": "SMS",
+      "campaign_type": "Winback",
+      "offer_type": "Free Shipping",
+      "offer_value": 10.0,
+      "budget": 15854.82,
+      "sends": 1100,
+      "clicks": 4557,
+      "purchases": 31,
+      "conversion_rate": 2.82,
+      "revenue": 21358889.4,
+      "roi": 134615.43
+    },
+    {
+      "campaign_name": "SMS Promotion Campaign 17",
+      "channel": "SMS",
+      "campaign_type": "Promotion",
+      "offer_type": "Free Shipping",
+      "offer_value": 40.0,
+      "budget": 15443.32,
+      "sends": 1100,
+      "clicks": 3718,
+      "purchases": 26,
+      "conversion_rate": 2.36,
+      "revenue": 20208986.52,
+      "roi": 130759.08
+    },
+    {
+      "campaign_name": "SMS Winback Campaign 11",
+      "channel": "SMS",
+      "campaign_type": "Winback",
+      "offer_type": "Percentage Discount",
+      "offer_value": 15.0,
+      "budget": 18665.16,
+      "sends": 1100,
+      "clicks": 4108,
+      "purchases": 26,
+      "conversion_rate": 2.36,
+      "revenue": 20105074.26,
+      "roi": 107614.45
+    },
+    {
+      "campaign_name": "SMS Promotion Campaign 8",
+      "channel": "SMS",
+      "campaign_type": "Promotion",
+      "offer_type": "BOGO",
+      "offer_value": 30.0,
+      "budget": 11588.67,
+      "sends": 1100,
+      "clicks": 4640,
+      "purchases": 29,
+      "conversion_rate": 2.64,
+      "revenue": 17529568.02,
+      "roi": 151164.71
+    },
+    {
+      "campaign_name": "SMS Winback Campaign 2",
+      "channel": "SMS",
+      "campaign_type": "Retention",
+      "offer_type": "Percentage Discount",
+      "offer_value": 15.0,
+      "budget": 17722.02,
+      "sends": 1100,
+      "clicks": 3190,
+      "purchases": 22,
+      "conversion_rate": 2.0,
+      "revenue": 14132016.18,
+      "roi": 79642.69
+    },
+    {
+      "campaign_name": "SMS Promotion Campaign 14",
+      "channel": "SMS",
+      "campaign_type": "Seasonal",
+      "offer_type": "Percentage Discount",
+      "offer_value": 20.0,
+      "budget": 17635.02,
+      "sends": 1100,
+      "clicks": 2856,
+      "purchases": 21,
+      "conversion_rate": 1.91,
+      "revenue": 13836195.97,
+      "roi": 78358.63
+    },
+    {
+      "campaign_name": "SMS Retention Campaign 20",
+      "channel": "SMS",
+      "campaign_type": "Seasonal",
+      "offer_type": "BOGO",
+      "offer_value": 40.0,
+      "budget": 8858.85,
+      "sends": 1100,
+      "clicks": 2820,
+      "purchases": 20,
+      "conversion_rate": 1.82,
+      "revenue": 9505565.34,
+      "roi": 107200.22
+    },
+    {
+      "campaign_name": "Email Winback Campaign 16",
+      "channel": "Email",
+      "campaign_type": "Seasonal",
+      "offer_type": "Free Shipping",
+      "offer_value": 40.0,
+      "budget": 8508.93,
+      "sends": 1100,
+      "clicks": 960,
+      "purchases": 10,
+      "conversion_rate": 0.91,
+      "revenue": 8721563.04,
+      "roi": 102398.94
+    },
+    {
+      "campaign_name": "Paid Social Winback Campaign 15",
+      "channel": "Paid Social",
+      "campaign_type": "Retention",
+      "offer_type": "Dollar Discount",
+      "offer_value": 40.0,
+      "budget": 14640.5,
+      "sends": 1100,
+      "clicks": 656,
+      "purchases": 8,
+      "conversion_rate": 0.73,
+      "revenue": 7008690.03,
+      "roi": 47771.93
+    },
+    {
+      "campaign_name": "Paid Social Seasonal Campaign 24",
+      "channel": "Paid Social",
+      "campaign_type": "Promotion",
+      "offer_type": "Dollar Discount",
+      "offer_value": 30.0,
+      "budget": 7827.83,
+      "sends": 1100,
+      "clicks": 873,
+      "purchases": 9,
+      "conversion_rate": 0.82,
+      "revenue": 6904528.24,
+      "roi": 88104.88
+    },
+    {
+      "campaign_name": "Email Seasonal Campaign 19",
+      "channel": "Email",
+      "campaign_type": "Winback",
+      "offer_type": "BOGO",
+      "offer_value": 40.0,
+      "budget": 5529.64,
+      "sends": 1100,
+      "clicks": 651,
+      "purchases": 7,
+      "conversion_rate": 0.64,
+      "revenue": 6470511.25,
+      "roi": 116915.05
+    }
+  ],
+  "campaigns": [
+    {
+      "campaign_name": "SMS Winback Campaign 5",
+      "channel": "SMS",
+      "campaign_type": "Winback",
+      "offer_type": "Dollar Discount",
+      "offer_value": 15.0,
+      "budget": 14216.07,
+      "sends": 1100,
+      "clicks": 4230,
+      "purchases": 30,
+      "conversion_rate": 2.73,
+      "revenue": 22680487.32,
+      "roi": 159441.19
+    },
+    {
+      "campaign_name": "SMS Promotion Campaign 23",
+      "channel": "SMS",
+      "campaign_type": "Winback",
+      "offer_type": "Free Shipping",
+      "offer_value": 10.0,
+      "budget": 15854.82,
+      "sends": 1100,
+      "clicks": 4557,
+      "purchases": 31,
+      "conversion_rate": 2.82,
+      "revenue": 21358889.4,
+      "roi": 134615.43
+    },
+    {
+      "campaign_name": "SMS Promotion Campaign 17",
+      "channel": "SMS",
+      "campaign_type": "Promotion",
+      "offer_type": "Free Shipping",
+      "offer_value": 40.0,
+      "budget": 15443.32,
+      "sends": 1100,
+      "clicks": 3718,
+      "purchases": 26,
+      "conversion_rate": 2.36,
+      "revenue": 20208986.52,
+      "roi": 130759.08
+    },
+    {
+      "campaign_name": "SMS Winback Campaign 11",
+      "channel": "SMS",
+      "campaign_type": "Winback",
+      "offer_type": "Percentage Discount",
+      "offer_value": 15.0,
+      "budget": 18665.16,
+      "sends": 1100,
+      "clicks": 4108,
+      "purchases": 26,
+      "conversion_rate": 2.36,
+      "revenue": 20105074.26,
+      "roi": 107614.45
+    },
+    {
+      "campaign_name": "SMS Promotion Campaign 8",
+      "channel": "SMS",
+      "campaign_type": "Promotion",
+      "offer_type": "BOGO",
+      "offer_value": 30.0,
+      "budget": 11588.67,
+      "sends": 1100,
+      "clicks": 4640,
+      "purchases": 29,
+      "conversion_rate": 2.64,
+      "revenue": 17529568.02,
+      "roi": 151164.71
+    },
+    {
+      "campaign_name": "SMS Winback Campaign 2",
+      "channel": "SMS",
+      "campaign_type": "Retention",
+      "offer_type": "Percentage Discount",
+      "offer_value": 15.0,
+      "budget": 17722.02,
+      "sends": 1100,
+      "clicks": 3190,
+      "purchases": 22,
+      "conversion_rate": 2.0,
+      "revenue": 14132016.18,
+      "roi": 79642.69
+    },
+    {
+      "campaign_name": "SMS Promotion Campaign 14",
+      "channel": "SMS",
+      "campaign_type": "Seasonal",
+      "offer_type": "Percentage Discount",
+      "offer_value": 20.0,
+      "budget": 17635.02,
+      "sends": 1100,
+      "clicks": 2856,
+      "purchases": 21,
+      "conversion_rate": 1.91,
+      "revenue": 13836195.97,
+      "roi": 78358.63
+    },
+    {
+      "campaign_name": "SMS Retention Campaign 20",
+      "channel": "SMS",
+      "campaign_type": "Seasonal",
+      "offer_type": "BOGO",
+      "offer_value": 40.0,
+      "budget": 8858.85,
+      "sends": 1100,
+      "clicks": 2820,
+      "purchases": 20,
+      "conversion_rate": 1.82,
+      "revenue": 9505565.34,
+      "roi": 107200.22
+    },
+    {
+      "campaign_name": "Email Winback Campaign 16",
+      "channel": "Email",
+      "campaign_type": "Seasonal",
+      "offer_type": "Free Shipping",
+      "offer_value": 40.0,
+      "budget": 8508.93,
+      "sends": 1100,
+      "clicks": 960,
+      "purchases": 10,
+      "conversion_rate": 0.91,
+      "revenue": 8721563.04,
+      "roi": 102398.94
+    },
+    {
+      "campaign_name": "Paid Social Winback Campaign 15",
+      "channel": "Paid Social",
+      "campaign_type": "Retention",
+      "offer_type": "Dollar Discount",
+      "offer_value": 40.0,
+      "budget": 14640.5,
+      "sends": 1100,
+      "clicks": 656,
+      "purchases": 8,
+      "conversion_rate": 0.73,
+      "revenue": 7008690.03,
+      "roi": 47771.93
+    },
+    {
+      "campaign_name": "Paid Social Seasonal Campaign 24",
+      "channel": "Paid Social",
+      "campaign_type": "Promotion",
+      "offer_type": "Dollar Discount",
+      "offer_value": 30.0,
+      "budget": 7827.83,
+      "sends": 1100,
+      "clicks": 873,
+      "purchases": 9,
+      "conversion_rate": 0.82,
+      "revenue": 6904528.24,
+      "roi": 88104.88
+    },
+    {
+      "campaign_name": "Email Seasonal Campaign 19",
+      "channel": "Email",
+      "campaign_type": "Winback",
+      "offer_type": "BOGO",
+      "offer_value": 40.0,
+      "budget": 5529.64,
+      "sends": 1100,
+      "clicks": 651,
+      "purchases": 7,
+      "conversion_rate": 0.64,
+      "revenue": 6470511.25,
+      "roi": 116915.05
+    },
+    {
+      "campaign_name": "Email Winback Campaign 22",
+      "channel": "Email",
+      "campaign_type": "Retention",
+      "offer_type": "Percentage Discount",
+      "offer_value": 15.0,
+      "budget": 7415.52,
+      "sends": 1100,
+      "clicks": 644,
+      "purchases": 7,
+      "conversion_rate": 0.64,
+      "revenue": 5404498.56,
+      "roi": 72780.91
+    },
+    {
+      "campaign_name": "Email Retention Campaign 10",
+      "channel": "Email",
+      "campaign_type": "Winback",
+      "offer_type": "BOGO",
+      "offer_value": 40.0,
+      "budget": 11790.48,
+      "sends": 1100,
+      "clicks": 981,
+      "purchases": 9,
+      "conversion_rate": 0.82,
+      "revenue": 5341769.45,
+      "roi": 45205.78
+    },
+    {
+      "campaign_name": "Paid Social Retention Campaign 9",
+      "channel": "Paid Social",
+      "campaign_type": "Winback",
+      "offer_type": "Dollar Discount",
+      "offer_value": 40.0,
+      "budget": 15649.44,
+      "sends": 1100,
+      "clicks": 640,
+      "purchases": 8,
+      "conversion_rate": 0.73,
+      "revenue": 4390793.61,
+      "roi": 27957.19
+    },
+    {
+      "campaign_name": "Email Seasonal Campaign 4",
+      "channel": "Email",
+      "campaign_type": "Promotion",
+      "offer_type": "Dollar Discount",
+      "offer_value": 20.0,
+      "budget": 4991.17,
+      "sends": 1100,
+      "clicks": 679,
+      "purchases": 7,
+      "conversion_rate": 0.64,
+      "revenue": 4013161.25,
+      "roi": 80305.22
+    },
+    {
+      "campaign_name": "Paid Social Promotion Campaign 6",
+      "channel": "Paid Social",
+      "campaign_type": "Winback",
+      "offer_type": "Free Shipping",
+      "offer_value": 40.0,
+      "budget": 11224.82,
+      "sends": 1100,
+      "clicks": 385,
+      "purchases": 5,
+      "conversion_rate": 0.45,
+      "revenue": 3519767.55,
+      "roi": 31257.01
+    },
+    {
+      "campaign_name": "Paid Social Retention Campaign 12",
+      "channel": "Paid Social",
+      "campaign_type": "Winback",
+      "offer_type": "BOGO",
+      "offer_value": 15.0,
+      "budget": 21480.83,
+      "sends": 1100,
+      "clicks": 486,
+      "purchases": 6,
+      "conversion_rate": 0.55,
+      "revenue": 3337151.1,
+      "roi": 15435.48
+    },
+    {
+      "campaign_name": "Paid Social Retention Campaign 3",
+      "channel": "Paid Social",
+      "campaign_type": "Promotion",
+      "offer_type": "Percentage Discount",
+      "offer_value": 15.0,
+      "budget": 18911.98,
+      "sends": 1100,
+      "clicks": 426,
+      "purchases": 6,
+      "conversion_rate": 0.55,
+      "revenue": 3318374.5,
+      "roi": 17446.42
+    },
+    {
+      "campaign_name": "Email Promotion Campaign 7",
+      "channel": "Email",
+      "campaign_type": "Promotion",
+      "offer_type": "Free Shipping",
+      "offer_value": 15.0,
+      "budget": 13700.47,
+      "sends": 1100,
+      "clicks": 576,
+      "purchases": 6,
+      "conversion_rate": 0.55,
+      "revenue": 3237843.24,
+      "roi": 23533.08
+    },
+    {
+      "campaign_name": "Email Retention Campaign 13",
+      "channel": "Email",
+      "campaign_type": "Promotion",
+      "offer_type": "BOGO",
+      "offer_value": 30.0,
+      "budget": 20554.67,
+      "sends": 1100,
+      "clicks": 570,
+      "purchases": 6,
+      "conversion_rate": 0.55,
+      "revenue": 3011857.64,
+      "roi": 14552.91
+    },
+    {
+      "campaign_name": "Paid Social Promotion Campaign 18",
+      "channel": "Paid Social",
+      "campaign_type": "Winback",
+      "offer_type": "Free Shipping",
+      "offer_value": 25.0,
+      "budget": 6205.16,
+      "sends": 1100,
+      "clicks": 272,
+      "purchases": 4,
+      "conversion_rate": 0.36,
+      "revenue": 2727568.96,
+      "roi": 43856.46
+    },
+    {
+      "campaign_name": "Paid Social Winback Campaign 21",
+      "channel": "Paid Social",
+      "campaign_type": "Winback",
+      "offer_type": "Free Shipping",
+      "offer_value": 15.0,
+      "budget": 14346.09,
+      "sends": 1100,
+      "clicks": 164,
+      "purchases": 2,
+      "conversion_rate": 0.18,
+      "revenue": 1097340.0,
+      "roi": 7549.05
+    },
+    {
+      "campaign_name": "Email Promotion Campaign 1",
+      "channel": "Email",
+      "campaign_type": "Promotion",
+      "offer_type": "Percentage Discount",
+      "offer_value": 30.0,
+      "budget": 5863.08,
+      "sends": 1100,
+      "clicks": 264,
+      "purchases": 3,
+      "conversion_rate": 0.27,
+      "revenue": 944276.06,
+      "roi": 16005.46
+    }
+  ],
+  "segments": [
+    {
+      "segment_name": "Inactive",
+      "customers": 685,
+      "orders": 589,
+      "revenue": 307945.69,
+      "aov": 522.83
+    },
+    {
+      "segment_name": "Window Shoppers",
+      "customers": 660,
+      "orders": 565,
+      "revenue": 299635.76,
+      "aov": 530.33
+    },
+    {
+      "segment_name": "High Value",
+      "customers": 701,
+      "orders": 587,
+      "revenue": 299052.45,
+      "aov": 509.46
+    },
+    {
+      "segment_name": "Discount Sensitive",
+      "customers": 680,
+      "orders": 570,
+      "revenue": 296672.6,
+      "aov": 520.48
+    },
+    {
+      "segment_name": "Loyal Customers",
+      "customers": 650,
+      "orders": 552,
+      "revenue": 295214.56,
+      "aov": 534.81
+    },
+    {
+      "segment_name": "VIP",
+      "customers": 709,
+      "orders": 572,
+      "revenue": 289260.22,
+      "aov": 505.7
+    },
+    {
+      "segment_name": "Holiday Shoppers",
+      "customers": 672,
+      "orders": 547,
+      "revenue": 282027.45,
+      "aov": 515.59
+    },
+    {
+      "segment_name": "New Customers",
+      "customers": 646,
+      "orders": 537,
+      "revenue": 269558.3,
+      "aov": 501.97
+    }
+  ],
+  "customers": [
+    {
+      "customer_id": 2865,
+      "customer_name": "Benjamin Martinez",
+      "city": "Denver",
+      "state": "CO",
+      "loyalty_status": "Platinum",
+      "orders": 5,
+      "lifetime_value": 3708.94,
+      "last_order_date": "2025-09-16"
+    },
+    {
+      "customer_id": 2163,
+      "customer_name": "Ava Garcia",
+      "city": "Miami",
+      "state": "FL",
+      "loyalty_status": "Gold",
+      "orders": 4,
+      "lifetime_value": 3056.14,
+      "last_order_date": "2025-07-25"
+    },
+    {
+      "customer_id": 2674,
+      "customer_name": "Elijah Harris",
+      "city": "Seattle",
+      "state": "WA",
+      "loyalty_status": "Gold",
+      "orders": 3,
+      "lifetime_value": 3039.72,
+      "last_order_date": "2025-06-03"
+    },
+    {
+      "customer_id": 777,
+      "customer_name": "Emma Robinson",
+      "city": "Seattle",
+      "state": "WA",
+      "loyalty_status": "Bronze",
+      "orders": 4,
+      "lifetime_value": 2989.75,
+      "last_order_date": "2025-06-04"
+    },
+    {
+      "customer_id": 391,
+      "customer_name": "Noah Wilson",
+      "city": "Miami",
+      "state": "FL",
+      "loyalty_status": "Silver",
+      "orders": 4,
+      "lifetime_value": 2982.41,
+      "last_order_date": "2025-09-11"
+    },
+    {
+      "customer_id": 1455,
+      "customer_name": "Michael Thomas",
+      "city": "Atlanta",
+      "state": "GA",
+      "loyalty_status": "Gold",
+      "orders": 3,
+      "lifetime_value": 2878.16,
+      "last_order_date": "2025-04-30"
+    },
+    {
+      "customer_id": 1175,
+      "customer_name": "Mason White",
+      "city": "Atlanta",
+      "state": "GA",
+      "loyalty_status": "Gold",
+      "orders": 5,
+      "lifetime_value": 2859.16,
+      "last_order_date": "2025-07-10"
+    },
+    {
+      "customer_id": 1542,
+      "customer_name": "Evelyn Taylor",
+      "city": "Seattle",
+      "state": "WA",
+      "loyalty_status": "Silver",
+      "orders": 4,
+      "lifetime_value": 2769.82,
+      "last_order_date": "2025-09-10"
+    },
+    {
+      "customer_id": 2614,
+      "customer_name": "Ella Miller",
+      "city": "Austin",
+      "state": "TX",
+      "loyalty_status": "Platinum",
+      "orders": 3,
+      "lifetime_value": 2684.92,
+      "last_order_date": "2025-07-14"
+    },
+    {
+      "customer_id": 710,
+      "customer_name": "Daniel Thompson",
+      "city": "Dallas",
+      "state": "TX",
+      "loyalty_status": "Gold",
+      "orders": 4,
+      "lifetime_value": 2627.3,
+      "last_order_date": "2025-08-14"
+    },
+    {
+      "customer_id": 986,
+      "customer_name": "Amelia Wilson",
+      "city": "Phoenix",
+      "state": "AZ",
+      "loyalty_status": "Gold",
+      "orders": 2,
+      "lifetime_value": 2625.76,
+      "last_order_date": "2025-08-03"
+    },
+    {
+      "customer_id": 2007,
+      "customer_name": "Ava Thomas",
+      "city": "Denver",
+      "state": "CO",
+      "loyalty_status": "Bronze",
+      "orders": 3,
+      "lifetime_value": 2610.34,
+      "last_order_date": "2025-04-17"
+    },
+    {
+      "customer_id": 2299,
+      "customer_name": "Ella Johnson",
+      "city": "Dallas",
+      "state": "TX",
+      "loyalty_status": "Bronze",
+      "orders": 3,
+      "lifetime_value": 2573.37,
+      "last_order_date": "2025-08-06"
+    },
+    {
+      "customer_id": 169,
+      "customer_name": "Ella Thompson",
+      "city": "Phoenix",
+      "state": "AZ",
+      "loyalty_status": "Bronze",
+      "orders": 4,
+      "lifetime_value": 2534.1,
+      "last_order_date": "2025-08-18"
+    },
+    {
+      "customer_id": 2096,
+      "customer_name": "Amelia Patel",
+      "city": "Miami",
+      "state": "FL",
+      "loyalty_status": "Bronze",
+      "orders": 3,
+      "lifetime_value": 2513.11,
+      "last_order_date": "2025-06-27"
+    },
+    {
+      "customer_id": 988,
+      "customer_name": "Aria White",
+      "city": "Dallas",
+      "state": "TX",
+      "loyalty_status": "Bronze",
+      "orders": 4,
+      "lifetime_value": 2436.37,
+      "last_order_date": "2025-08-28"
+    },
+    {
+      "customer_id": 1020,
+      "customer_name": "Abigail Brown",
+      "city": "Atlanta",
+      "state": "GA",
+      "loyalty_status": "Bronze",
+      "orders": 3,
+      "lifetime_value": 2367.76,
+      "last_order_date": "2025-09-17"
+    },
+    {
+      "customer_id": 2983,
+      "customer_name": "Mia Martinez",
+      "city": "Seattle",
+      "state": "WA",
+      "loyalty_status": "Gold",
+      "orders": 4,
+      "lifetime_value": 2337.42,
+      "last_order_date": "2025-06-01"
+    },
+    {
+      "customer_id": 833,
+      "customer_name": "Ethan Harris",
+      "city": "Denver",
+      "state": "CO",
+      "loyalty_status": "Platinum",
+      "orders": 3,
+      "lifetime_value": 2321.45,
+      "last_order_date": "2025-07-15"
+    },
+    {
+      "customer_id": 2711,
+      "customer_name": "Charlotte Martin",
+      "city": "Phoenix",
+      "state": "AZ",
+      "loyalty_status": "Silver",
+      "orders": 3,
+      "lifetime_value": 2311.1,
+      "last_order_date": "2025-05-22"
+    },
+    {
+      "customer_id": 1036,
+      "customer_name": "Levi Jackson",
+      "city": "Austin",
+      "state": "TX",
+      "loyalty_status": "Bronze",
+      "orders": 2,
+      "lifetime_value": 2305.03,
+      "last_order_date": "2025-07-31"
+    },
+    {
+      "customer_id": 1872,
+      "customer_name": "Daniel Davis",
+      "city": "Miami",
+      "state": "FL",
+      "loyalty_status": "Bronze",
+      "orders": 4,
+      "lifetime_value": 2297.03,
+      "last_order_date": "2025-08-05"
+    },
+    {
+      "customer_id": 1348,
+      "customer_name": "Amelia Harris",
+      "city": "Austin",
+      "state": "TX",
+      "loyalty_status": "Gold",
+      "orders": 4,
+      "lifetime_value": 2282.14,
+      "last_order_date": "2025-09-17"
+    },
+    {
+      "customer_id": 219,
+      "customer_name": "Henry Brown",
+      "city": "Austin",
+      "state": "TX",
+      "loyalty_status": "Silver",
+      "orders": 3,
+      "lifetime_value": 2273.71,
+      "last_order_date": "2025-07-31"
+    },
+    {
+      "customer_id": 1505,
+      "customer_name": "Mason Johnson",
+      "city": "Miami",
+      "state": "FL",
+      "loyalty_status": "Bronze",
+      "orders": 3,
+      "lifetime_value": 2254.35,
+      "last_order_date": "2025-05-31"
+    }
+  ]
+};

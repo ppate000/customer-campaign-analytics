@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Campaign Analytics</title>
+  <meta name="description" content="Static SQL portfolio dashboard showing campaign, segment, and customer analytics.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div>
+        <p class="eyebrow">Static GitHub Pages version</p>
+        <h1>Customer Campaign Analytics</h1>
+        <p class="subtitle">Portfolio-ready marketing analytics dashboard built with HTML, CSS, and JavaScript</p>
+      </div>
+      <div class="topbar-actions">
+        <button id="themeToggle" class="button secondary" type="button">Toggle theme</button>
+        <a class="button" href="#about">Project summary</a>
+      </div>
+    </div>
+    <div class="container navwrap">
+      <nav class="tabs">
+        <a href="#dashboard">Dashboard</a>
+        <a href="#campaigns">Campaigns</a>
+        <a href="#segments">Segments</a>
+        <a href="#customers">Customers</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container stack">
+    <section id="dashboard" class="stack-lg">
+      <div id="statsGrid" class="stats-grid"></div>
+
+      <div class="grid two">
+        <section class="card">
+          <div class="card-head">
+            <div>
+              <p class="section-label">Performance</p>
+              <h2>Channel overview</h2>
+            </div>
+          </div>
+          <div id="channelChart" class="chart"></div>
+          <div class="table-wrap compact">
+            <table id="channelTable"></table>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <div>
+              <p class="section-label">Trend</p>
+              <h2>Monthly revenue</h2>
+            </div>
+          </div>
+          <div id="monthlyChart" class="chart"></div>
+          <div class="table-wrap compact">
+            <table id="monthlyTable"></table>
+          </div>
+        </section>
+      </div>
+
+      <section class="card">
+        <div class="card-head">
+          <div>
+            <p class="section-label">Leaders</p>
+            <h2>Top campaigns by revenue</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table id="topCampaignsTable"></table>
+        </div>
+      </section>
+    </section>
+
+    <section id="campaigns" class="card">
+      <div class="card-head split">
+        <div>
+          <p class="section-label">Detailed view</p>
+          <h2>Campaign performance</h2>
+        </div>
+        <input id="campaignSearch" class="search" type="search" placeholder="Search campaign or channel">
+      </div>
+      <div class="table-wrap">
+        <table id="campaignsTable"></table>
+      </div>
+    </section>
+
+    <section id="segments" class="card">
+      <div class="card-head">
+        <div>
+          <p class="section-label">Audience</p>
+          <h2>Segment performance</h2>
+        </div>
+      </div>
+      <div id="segmentChart" class="chart"></div>
+      <div class="table-wrap">
+        <table id="segmentsTable"></table>
+      </div>
+    </section>
+
+    <section id="customers" class="card">
+      <div class="card-head">
+        <div>
+          <p class="section-label">Customer value</p>
+          <h2>Top customers by lifetime value</h2>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="customersTable"></table>
+      </div>
+    </section>
+
+    <section id="about" class="card prose">
+      <p class="section-label">Why this project exists</p>
+      <h2>What this demonstrates</h2>
+      <p>This project simulates a small marketing analytics system that tracks customer segments, campaign sends, engagement, purchases, and revenue. The GitHub Pages version is static, which means it works with plain HTML, CSS, and JavaScript and needs no backend.</p>
+      <div class="pill-grid">
+        <span class="pill">Relational thinking</span>
+        <span class="pill">SQL-style analytics</span>
+        <span class="pill">Dashboard presentation</span>
+        <span class="pill">Portfolio-ready deployment</span>
+      </div>
+      <h3>Good interview explanation</h3>
+      <p>I built a customer campaign analytics project to show how a company could measure marketing performance, customer engagement, and purchase behavior, then turned the results into a clean dashboard for business users.</p>
+      <h3>GitHub Pages</h3>
+      <p>This package is ready for GitHub Pages. Upload these files to a repository, enable Pages, and it will work as a static site. The <code>.nojekyll</code> file is included to avoid build issues.</p>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
